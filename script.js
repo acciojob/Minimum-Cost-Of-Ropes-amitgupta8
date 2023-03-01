@@ -1,5 +1,5 @@
-function minimumCost() {
-    
+//your code here
+function minimumCost() {    
     var res = 0;
     var cost = 0;
     var inputArray = document.getElementById("inputArr").value;
@@ -13,5 +13,5 @@ function minimumCost() {
 		// adding res to arrayy
         inputArray[inputArray.length] = res;   
     }  
-    document.getElementById("result").innerHTML = cost;
+    document.getElementById("result").innerHTML = cost;
 }
